@@ -1,0 +1,269 @@
+{
+  "Created": "proxmark3",
+  "FileType": "mfcard",
+  "blocks": {
+    "0": "041219C3219317984200E32000000000",
+    "1": "00000000000000000000000000000000",
+    "2": "00000000000000000000000000000000",
+    "3": "A0A1A2A3A4A57C378800FBF225DC5D58",
+    "4": "00000000000000000000000000000000",
+    "5": "00000000000000000000000000000000",
+    "6": "00000000000000000000000000000000",
+    "7": "A82607B01C0D7C3788002910989B6880",
+    "8": "FC2CFE22230000001545904000000000",
+    "9": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+    "10": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+    "11": "2AA05ED1856F787788FFEAAC88E5DC99",
+    "12": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+    "13": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+    "14": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+    "15": "2AA05ED1856F787788FFEAAC88E5DC99",
+    "16": "4213500EBE2E022B9F0000000000390E",
+    "17": "00000000000000000000000000000000",
+    "18": "00000000000000000000000000000000",
+    "19": "73068F118C13787788002B7F3253FAC5",
+    "20": "00000000000000000000000000000000",
+    "21": "00000000000000000000000000000000",
+    "22": "00000000000000000000000000000000",
+    "23": "FBC2793D540B7C378800D3A297DC2698",
+    "24": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+    "25": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+    "26": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+    "27": "2AA05ED1856F787788FFEAAC88E5DC99",
+    "28": "45D3D00EBE2E022B9F00000000003CB6",
+    "29": "00000000000000000000000000000000",
+    "30": "00000000000000000000000000000000",
+    "31": "AE3D65A3DAD4787788000F1C63013DBA",
+    "32": "45DB100EBE2E0E19768AA40000000000",
+    "33": "39703D460800140000001000774CCA71",
+    "34": "39703D460800140000001000774CCA71",
+    "35": "A73F5DC1D33378778800E35173494A81",
+    "36": "00000000000000000000000000000000",
+    "37": "00000000000000000000000000000000",
+    "38": "00000000000000000000000000000000",
+    "39": "69A32F1C2F19787788006B8BD9860763",
+    "40": "00000000000000000000000000000000",
+    "41": "00000000000000000000000000000000",
+    "42": "00000000000000000000000000000000",
+    "43": "9BECDF3D92737C378800F8493407799D",
+    "44": "00000000000000000000000000000000",
+    "45": "00000000000000000000000000000000",
+    "46": "00000000000000000000000000000000",
+    "47": "08B3864632297C3788005EFBAECEF46B",
+    "48": "00000000000000000000000000000000",
+    "49": "00000000000000000000000000000000",
+    "50": "00000000000000000000000000000000",
+    "51": "CD4C61C26E3D7C37880031C7610DE3B0",
+    "52": "00000000000000000000000000000000",
+    "53": "00000000000000000000000000000000",
+    "54": "00000000000000000000000000000000",
+    "55": "A82607B01C0D7C3788002910989B6880",
+    "56": "00000000000000000000000000000000",
+    "57": "00000000000000000000000000000000",
+    "58": "00000000000000000000000000000000",
+    "59": "0E8F64340BA47C3788004ACEC1205D75",
+    "60": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+    "61": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+    "62": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+    "63": "2AA05ED1856F787788FFEAAC88E5DC99"
+  },
+  "Card": {
+    "UID": "041219C3",
+    "SAK": "93",
+    "ATQA": "1798"
+  },
+  "SectorKeys": {
+    "0": {
+      "KeyA": "A0A1A2A3A4A5",
+      "KeyB": "FBF225DC5D58",
+      "AccessConditions": "7C378800",
+      "AccessConditionsText": {
+        "block0": "rdAB wrB",
+        "block1": "rdAB wrB",
+        "block2": "rdAB wrAB incAB dectrAB",
+        "block3": "wrAbyB rdCbyAB wrCbyB wrBbyB",
+        "UserData": "00"
+      }
+    },
+    "1": {
+      "KeyA": "A82607B01C0D",
+      "KeyB": "2910989B6880",
+      "AccessConditions": "7C378800",
+      "AccessConditionsText": {
+        "block4": "rdAB wrB",
+        "block5": "rdAB wrB",
+        "block6": "rdAB wrAB incAB dectrAB",
+        "block7": "wrAbyB rdCbyAB wrCbyB wrBbyB",
+        "UserData": "00"
+      }
+    },
+    "2": {
+      "KeyA": "2AA05ED1856F",
+      "KeyB": "EAAC88E5DC99",
+      "AccessConditions": "787788FF",
+      "AccessConditionsText": {
+        "block8": "rdAB wrB",
+        "block9": "rdAB wrB",
+        "block10": "rdAB wrB",
+        "block11": "wrAbyB rdCbyAB wrCbyB wrBbyB",
+        "UserData": "FF"
+      }
+    },
+    "3": {
+      "KeyA": "2AA05ED1856F",
+      "KeyB": "EAAC88E5DC99",
+      "AccessConditions": "787788FF",
+      "AccessConditionsText": {
+        "block12": "rdAB wrB",
+        "block13": "rdAB wrB",
+        "block14": "rdAB wrB",
+        "block15": "wrAbyB rdCbyAB wrCbyB wrBbyB",
+        "UserData": "FF"
+      }
+    },
+    "4": {
+      "KeyA": "73068F118C13",
+      "KeyB": "2B7F3253FAC5",
+      "AccessConditions": "78778800",
+      "AccessConditionsText": {
+        "block16": "rdAB wrB",
+        "block17": "rdAB wrB",
+        "block18": "rdAB wrB",
+        "block19": "wrAbyB rdCbyAB wrCbyB wrBbyB",
+        "UserData": "00"
+      }
+    },
+    "5": {
+      "KeyA": "FBC2793D540B",
+      "KeyB": "D3A297DC2698",
+      "AccessConditions": "7C378800",
+      "AccessConditionsText": {
+        "block20": "rdAB wrB",
+        "block21": "rdAB wrB",
+        "block22": "rdAB wrAB incAB dectrAB",
+        "block23": "wrAbyB rdCbyAB wrCbyB wrBbyB",
+        "UserData": "00"
+      }
+    },
+    "6": {
+      "KeyA": "2AA05ED1856F",
+      "KeyB": "EAAC88E5DC99",
+      "AccessConditions": "787788FF",
+      "AccessConditionsText": {
+        "block24": "rdAB wrB",
+        "block25": "rdAB wrB",
+        "block26": "rdAB wrB",
+        "block27": "wrAbyB rdCbyAB wrCbyB wrBbyB",
+        "UserData": "FF"
+      }
+    },
+    "7": {
+      "KeyA": "AE3D65A3DAD4",
+      "KeyB": "0F1C63013DBA",
+      "AccessConditions": "78778800",
+      "AccessConditionsText": {
+        "block28": "rdAB wrB",
+        "block29": "rdAB wrB",
+        "block30": "rdAB wrB",
+        "block31": "wrAbyB rdCbyAB wrCbyB wrBbyB",
+        "UserData": "00"
+      }
+    },
+    "8": {
+      "KeyA": "A73F5DC1D333",
+      "KeyB": "E35173494A81",
+      "AccessConditions": "78778800",
+      "AccessConditionsText": {
+        "block32": "rdAB wrB",
+        "block33": "rdAB wrB",
+        "block34": "rdAB wrB",
+        "block35": "wrAbyB rdCbyAB wrCbyB wrBbyB",
+        "UserData": "00"
+      }
+    },
+    "9": {
+      "KeyA": "69A32F1C2F19",
+      "KeyB": "6B8BD9860763",
+      "AccessConditions": "78778800",
+      "AccessConditionsText": {
+        "block36": "rdAB wrB",
+        "block37": "rdAB wrB",
+        "block38": "rdAB wrB",
+        "block39": "wrAbyB rdCbyAB wrCbyB wrBbyB",
+        "UserData": "00"
+      }
+    },
+    "10": {
+      "KeyA": "9BECDF3D9273",
+      "KeyB": "F8493407799D",
+      "AccessConditions": "7C378800",
+      "AccessConditionsText": {
+        "block40": "rdAB wrB",
+        "block41": "rdAB wrB",
+        "block42": "rdAB wrAB incAB dectrAB",
+        "block43": "wrAbyB rdCbyAB wrCbyB wrBbyB",
+        "UserData": "00"
+      }
+    },
+    "11": {
+      "KeyA": "08B386463229",
+      "KeyB": "5EFBAECEF46B",
+      "AccessConditions": "7C378800",
+      "AccessConditionsText": {
+        "block44": "rdAB wrB",
+        "block45": "rdAB wrB",
+        "block46": "rdAB wrAB incAB dectrAB",
+        "block47": "wrAbyB rdCbyAB wrCbyB wrBbyB",
+        "UserData": "00"
+      }
+    },
+    "12": {
+      "KeyA": "CD4C61C26E3D",
+      "KeyB": "31C7610DE3B0",
+      "AccessConditions": "7C378800",
+      "AccessConditionsText": {
+        "block48": "rdAB wrB",
+        "block49": "rdAB wrB",
+        "block50": "rdAB wrAB incAB dectrAB",
+        "block51": "wrAbyB rdCbyAB wrCbyB wrBbyB",
+        "UserData": "00"
+      }
+    },
+    "13": {
+      "KeyA": "A82607B01C0D",
+      "KeyB": "2910989B6880",
+      "AccessConditions": "7C378800",
+      "AccessConditionsText": {
+        "block52": "rdAB wrB",
+        "block53": "rdAB wrB",
+        "block54": "rdAB wrAB incAB dectrAB",
+        "block55": "wrAbyB rdCbyAB wrCbyB wrBbyB",
+        "UserData": "00"
+      }
+    },
+    "14": {
+      "KeyA": "0E8F64340BA4",
+      "KeyB": "4ACEC1205D75",
+      "AccessConditions": "7C378800",
+      "AccessConditionsText": {
+        "block56": "rdAB wrB",
+        "block57": "rdAB wrB",
+        "block58": "rdAB wrAB incAB dectrAB",
+        "block59": "wrAbyB rdCbyAB wrCbyB wrBbyB",
+        "UserData": "00"
+      }
+    },
+    "15": {
+      "KeyA": "2AA05ED1856F",
+      "KeyB": "EAAC88E5DC99",
+      "AccessConditions": "787788FF",
+      "AccessConditionsText": {
+        "block60": "rdAB wrB",
+        "block61": "rdAB wrB",
+        "block62": "rdAB wrB",
+        "block63": "wrAbyB rdCbyAB wrCbyB wrBbyB",
+        "UserData": "FF"
+      }
+    }
+  }
+}
